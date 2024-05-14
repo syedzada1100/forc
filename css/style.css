@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    list-style-type: none;
+    text-decoration: none !important;
+    outline: none;
+    border: none;
+}
+
+body {
+    font-size: 16px;
+}
+
+.logo {
+    width: 76.1%;
+}
+
+.syed ul li {
+    padding: 0px 8px;
+}
+
+.row1-col ul,
+footer ul {
+    padding: 0px;
+}
+
+.syed ul li a,
+.row3-col a,
+.links h3,
+.links p {
+    font-family: Josefin Sans;
+    font-size: 1em;
+    color: #000;
+    transition: 300ms linear all;
+}
+
+.syed ul li i {
+    line-height: 38.5px;
+    font-size: 0.9em;
+}
+
+.syed ul li a:hover,
+.syed ul li i:hover {
+    color: #0088FF;
+}
+
+.row1 h2,
+.row1 p,
+.row1-col h2,
+.row1-col h3,
+.row2 h2,
+.row3-col h3,
+.row4-col h2,
+.row4-col h3,
+.row5 h2,
+.pro h3,
+.forc h3,
+.cara h3,
+.box h3,
+.color h2,
+.color h4,
+.color h4 span,
+.theory h2,
+.theory h4,
+.theme h2,
+.anc h3,
+.scheme h2,
+.scheme h4,
+.list h3,
+.visual h2,
+.details h2 {
+    font-family: Poppins;
+    font-size: 2.7em;
+    color: #0088FF;
+}
+
+.row1 p {
+    font-size: 1em;
+    color: #333333;
+}
+
+.row1 p span,
+.row1-col h2 span,
+.row1-col p span,
+.row3-col a,
+.row5 .bt4 span,
+.anc .bt4 span,
+.anc span {
+    display: block;
+}
+
+.row1-col h2 {
+    font-size: 1.8em;
+}
+
+.row1-col ul li,
+.row1-col p,
+.row3-col p,
+.row4-col p,
+.row5 p,
+footer p,
+footer p a,
+.pro p,
+.forc p,
+.cara .item a,
+.box p,
+.color p,
+.color p span,
+.theory p,
+.theme p,
+.scheme p,
+.list p,
+.list ul li,
+.details p {
+    font-family: Poppins;
+    font-size: 1em;
+    color: #555555;
+}
+
+.row1-col ul li::before {
+    content: "●";
+    padding: 0px 5px;
+    font-size: 0.9em;
+    color: #555555;
+}
+
+.row1-col h3 {
+    font-size: 1.6em;
+    color: #000000;
+}
+
+.row1-col .bt,
+.row3-col .bt2,
+.row4-col .bt3,
+.row5 .bt4,
+.my_btn,
+.links a,
+.anc .bt4,
+.anc .bt3 {
+    font-family: Poppins;
+    font-size: 0.8em;
+    color: #000000;
+    padding: 8px 10px;
+    border: 2px solid #078BDA;
+    border-radius: 10px;
+    margin: 15px 0px;
+    display: inline-block;
+}
+
+.row1-col .bt:hover,
+.row3-col .bt2:hover,
+.row4-col .bt3:hover,
+.row5 .bt4:hover {
+    color: #ffffff;
+    background: #078BDA;
+}
+
+.row1-col h2 span {
+    color: #666666;
+}
+
+.row1-col p span:nth-child(1) {
+    color: #000000;
+}
+
+.row1-col p span:nth-child(2) {
+    padding-top: 20px;
+}
+
+.row2 h2 {
+    color: #555555;
+    font-size: 2.0em;
+}
+
+.row3-col h3,
+.row4-col h2,
+.row4-col h3,
+.row5 h2 {
+    font-size: 2.2em;
+}
+
+.row3-col a {
+    font-family: Poppins;
+}
+
+.row4-col h2 {
+    color: #ffffff;
+    background: #0088CC;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 0px 50px 50px 0px;
+    margin-left: -10px !important;
+}
+
+.row5 {
+    padding: 50px 0px;
+}
+
+.row5 p {
+    font-size: 1.5em;
+}
+
+.row5 .bt4,
+.anc .bt4 {
+    margin: 0px 10px;
+    padding: 3px 10px;
+}
+
+footer {
+    background: #666666;
+}
+
+footer p,
+footer ul,
+footer p a {
+    color: #ffffff;
+    margin: 0px;
+}
+
+footer a {
+    display: inline-block;
+}
+
+.arrow {
+    width: 100%;
+}
+
+footer ul li {
+    padding: 0px 5px;
+    display: inline-block;
+}
+
+footer ul li a i {
+    width: 42px;
+    font-size: 1em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all linear 200ms;
+}
+
+footer ul li a i:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.sticky {
+    position: fixed;
+    z-index: 999;
+    background: #ffffff;
+    transition: all linear 1s;
+}
+
+.head {
+    width: 100%;
+    background: url(../img/home/head.webp) no-repeat left top;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.head h2,
+.head p,
+.head a {
+    font-family: Josefin Sans;
+    font-size: 3.5em;
+    color: #0088FF;
+}
+
+.head p {
+    font-size: 1em;
+    color: #CCCCCC;
+}
+
+.head a {
+    font-size: 0.8em;
+    color: #FFFFFF;
+    border: 2px solid #0088FF;
+    padding: 6px 20px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: all linear 200ms;
+}
+
+.head a:hover {
+    background: #0088FF;
+}
+
+.pro h3,
+.forc h3,
+.cara h3,
+.box h3 {
+    font-size: 2.2em;
+}
+
+.pro p {
+    color: #222222;
+}
+
+.forc p {
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+.cara h3 {
+    color: #FFFFFF;
+    background: #0088FF;
+    padding: 5px 20px;
+    display: inline-block;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.cara .item a img {
+    width: 46.5%;
+    margin: auto;
+}
+
+.cara .item a {
+    color: #000000;
+    font-weight: bold;
+}
+
+.xd {
+    width: 100%;
+    background: url(../img/home/xd.webp) no-repeat left top;
+    background-size: cover;
+}
+
+.box {
+    display: inline-block;
+    text-align: center;
+    padding: 15px 40px;
+}
+
+.box h3 {
+    padding-top: 10px;
+}
+
+.box p {
+    font-size: 1.3em;
+    color: #666666;
+}
+
+.my_btn {
+    border-radius: 50px;
+    font-size: 1em;
+    padding: 8px 15px;
+}
+
+.act {
+    background: #0088CC;
+    color: #FFFFFF;
+}
+
+.my_nav {
+    padding: 0px;
+}
+
+.my_nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.links {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.links h3 {
+    font-size: 1.5em;
+    padding-top: 30px;
+}
+
+.links p {
+    font-size: 0.8em;
+    color: #555555;
+}
+
+.links a,
+.anc .bt3,
+.anc .bt4 {
+    font-size: 1em;
+    color: #FFFFFF;
+    background: #0088CC;
+    margin: 0px;
+    padding: 6px 15px;
+}
+
+.links a:hover,
+.anc .bt4:hover,
+.anc .bt3:hover,
+.anc .bt4:hover {
+    color: #000000;
+    background: #ffffff;
+}
+
+.content1,
+.content2,
+.content3 {
+    display: none;
+}
+
+.color h2,
+.theory h2 {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.color h4,
+.color h4 span,
+.theory h4 {
+    font-size: 1.5em;
+    color: #000000;
+}
+
+.color h4 span {
+    font-size: 1.2em;
+}
+
+.color p span,
+.theory p {
+    font-size: 0.8em;
+}
+
+.theory h2 {
+    padding: 80px 18% 40px 18%;
+}
+
+.theory h4 {
+    font-size: 1.1em;
+}
+
+.theme h2 {
+    padding: 0px 15%;
+}
+
+.theme p span {
+    display: block;
+    padding: 20px 0px;
+}
+
+.anc {
+    padding-bottom: 50px;
+}
+
+.anc h3,
+.scheme h4,
+.list h3 {
+    font-size: 1.7em;
+    /* color: #000000; */
+    padding-bottom: 20px;
+}
+
+.scheme h4 {
+    color: #000000;
+}
+
+.anc .bt3,
+.anc .bt4 {
+    margin: 20px 10px 0px 10px;
+}
+
+.anc .bt4 {
+    font-size: 0.8em;
+}
+
+.scheme h4 {
+    padding: 10px 0px 0px 0px;
+}
+
+.list h3 {
+    padding: 0px;
+}
+
+.list ul li {
+    list-style-type: decimal;
+    padding-bottom: 10px;
+}
+
+.anc h3 {
+    margin: 0px;
+}
+
+.visual h2 {
+    text-align: center;
+}
+
+.details h3 {
+    font-family: Poppins;
+    font-size: 2em;
+}
+
+.text-center .details:nth-child(1) h3 {
+    color: #ED1D26;
+}
+
+.text-center .details:nth-child(2) h3 {
+    color: #EC7014;
+}
+
+.text-center .details:nth-child(3) h3 {
+    color: #FFD701;
+}
+
+.text-center .details:nth-child(4) h3 {
+    color: #4EAE49;
+}
+
+.text-center .details:nth-child(5) h3 {
+    color: #3943BB;
+}
+
+.text-center .details:nth-child(6) h3 {
+    color: #A42BC3;
+}
+
+.text-center .details:nth-child(7) h3 {
+    color: #241F21;
+}
+
+.text-center .details:nth-child(8) h3 {
+    -webkit-text-stroke: 1px #000000;
+    -webkit-text-fill-color: transparent;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 2em;
+}
+
+#searchBar {
+    max-width: 150px;
+    font-size: 0.7em;
+    background: #eee;
+    border-radius: 28px;
+    margin-right: 10px;
+    line-height: 38.5px;
+    padding: 0px 10px;
+    border: 1px solid #0088FF;
+}
+
+/* #toggle-search {
+    float: right;
+} */
